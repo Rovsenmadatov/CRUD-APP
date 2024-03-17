@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <h1 class="title">CRUD APP</h1>
+    <form >
+        <div>Kullanıcı Adı</div>
+        <input type="text" name="username" id="username" class="input">
+        <div>E-Posta Adresi</div>
+        <input type="email" name="email" id="email" class="input">
+        <br><br>
+        <button onclick="addUser()" type="submit" id="Sbtn"> Ekle</button>
+        
+    </form>
+    <form action="">
+        <button onclick="ads()" type="submit" id="Sbtn">Temizle</button>
+    </form>
+ 
+
+
+    <div >
+        <ul id="userList"></ul>
+    </div>
+
+ <script src="main.js"></script>
+</body>
+</html>
